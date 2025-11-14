@@ -1,0 +1,17 @@
+{
+  "name": "trashcore-manager",
+  "description": "API service to package GitHub repos and deploy bots to Heroku automatically.",
+  "repository": "https://github.com/Tennor-modz/trashcore-ultra",
+  "keywords": ["node", "express", "heroku", "deployment", "automation"],
+  "env": {
+    "HEROKU_API_KEY": {
+      "description": "Personal Heroku API key used to create and manage apps",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
