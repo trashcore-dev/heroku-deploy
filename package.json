@@ -1,0 +1,18 @@
+{
+  "name": "drexter-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "adm-zip": "latest",
+    "better-sqlite3": "latest",
+    "cors": "latest",
+    "express": "latest",
+    "tar-stream": "latest",
+    "gunzip-maybe": "latest",
+    "os": "^0.1.1"
+  }
+}
